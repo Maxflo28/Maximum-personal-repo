@@ -1,2 +1,2 @@
-# newrepository
+# Maximum's Repository
 new
