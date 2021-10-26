@@ -1,4 +1,4 @@
-# Maximum's Repository
-new
+# Portfolio
 
-# Repository for Maximum's portfolio files
+
+/ This is my portfolio project
