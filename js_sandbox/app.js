@@ -30,25 +30,68 @@
 // console.log(typeof name);
 
 // number
-const age = 45;
-// boolean
-const hasKids = true;
-// null
-const car = null;
-// undefined
-let test;
-// symbol
-const sym = Symbol();
+// const age = 45;
+// // boolean
+// const hasKids = true;
+// // null
+// const car = null;
+// // undefined
+// let test;
+// // symbol
+// const sym = Symbol();
 
-// Reference types - objects
-// array
-const hobbies = ['movies', 'music'];
-// Object literal
-const address = {
-  city: 'Boston',
-  state: 'MA'
-}
-const today = new Date();
+// // Reference types - objects
+// // array
+// const hobbies = ['movies', 'music'];
+// // Object literal
+// const address = {
+//   city: 'Boston',
+//   state: 'MA'
+// }
+// const today = new Date();
 
-console.log(today);
-console.log(typeof today);
+// console.log(today);
+// console.log(typeof today);
+
+
+
+let val; 
+
+// Number to string
+val = 5;
+val = String(4+4);
+// Bool to string
+val = String(true);
+// Date to string
+val = String(new Date());
+// Array to string 
+val = String([1,2,3,4]);
+
+// toString()
+val = (5).toString();
+val = (true).toString();
+
+// String to number
+val = '5';
+
+
+
+
+// Output
+console.log(val);
+console.log(typeof val);
+// console.log(val.length);
+// console.log(val.toFixed());
+
+// Math Object
+val = Math.PI;
+val = Math.E;
+val = Math.round(2.4);
+val = Math.ceil(2.4);
+val = Math.sqrt(64);
+val = Math.abs(-3);
+val = Math.pow(8, 2);
+
+val = Math.floor(Math.random() * 20 + 1);
+
+console.log(val);
