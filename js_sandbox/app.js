@@ -198,4 +198,47 @@
   
 // })
 
+// Window Methods / Objects / Properties
 
+// ALERT
+//alert('Hello World');
+
+// Prompt
+// const input = prompt();
+// alert(input);
+
+// Confirm
+// if(confirm('Are you sure')){
+//   console.log('YES');
+// } else {
+//   console.log('NO');
+// }
+
+// let val;
+
+//  //Outter height and width
+// val = window.outerHeight;
+// val = window.outerWidth;
+// console.log(val);
+
+
+// Location Object
+// val = window.location;
+// val = window.location.hostname;
+// val = window.location.port;
+// val = window.location.href;
+// val = window.location.search;
+
+
+// // Redirect
+// window.location.href = 'http://google.com';
+// // Reload
+// window.location.reload();
+
+// console.log(val);
+
+// History Object
+
+// window.history.go();
+
+// console.log(val);
